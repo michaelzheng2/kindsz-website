@@ -1,0 +1,36 @@
+#leaderboard-container {
+	width: 20%;
+	float: right;
+	height: 100%;
+	align-items: center;
+	color: white;
+	padding: 20px;
+}
+#leaderboard-monthly-text {
+	font-size: 35px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid white;
+	width: 100%;
+	text-align: left;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.divider {
+	border-bottom: 1px solid white;
+}
+#leaderboard-entires {
+	overflow: hidden;
+	position: relative;
+	animation: slideUp 1s forwards;
+	max-height: 80vh;
+	padding-left: 10px;
+	display: flexbox;
+}
+@keyframes slideUp {
+	from {
+		top: 100%;
+		}
+	to {
+		top: 0%;
+		}
+}
