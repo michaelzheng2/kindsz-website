@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Leaderboard from  './components/Leaderboard'
 import './App.css';
 
