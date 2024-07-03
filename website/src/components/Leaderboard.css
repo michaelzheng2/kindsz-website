@@ -4,7 +4,8 @@
 	height: 100%;
 	align-items: center;
 	color: white;
-	padding: 20px;
+	margin: 10px;
+	overflow: auto;
 }
 #leaderboard-monthly-text {
 	font-size: 35px;
@@ -19,12 +20,12 @@
 	border-bottom: 1px solid white;
 }
 #leaderboard-entires {
-	overflow: hidden;
 	position: relative;
 	animation: slideUp 1s forwards;
-	max-height: 80vh;
-	padding-left: 10px;
-	display: flexbox;
+	max-height: 90vh;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
 }
 @keyframes slideUp {
 	from {
