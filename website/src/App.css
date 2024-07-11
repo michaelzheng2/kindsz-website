@@ -3,7 +3,8 @@
   background-color: #300565;
 }
 body {
-	background-color: #300565
+	background-image: linear-gradient(to bottom right, #2f6dcd, #5841b2
+  ); ;
 }
 
 .App-logo {
